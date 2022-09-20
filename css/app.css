@@ -127,11 +127,59 @@ main{
   border-radius: 10px;
   transition:all 0.5s;
   }
+
 .destaque .adicionarCarrinho:hover{
   background: red;
   color: #F0A952;
   transition:all 0.5s;
 }
+
+/*Empresa */
+
+.empresa {
+  text-align: center;
+  color: #F0A952;
+}
+
+/* Parceiros */
+
+.parceiros {
+  text-align: center;
+  color: #F0A952;
+}
+
+.imagens ul li{
+  position:absolute;
+  display: inline-block;
+  width: 50%;
+  height: 340px;
+  background-size: 50%;
+  list-style: none;
+  
+}
+
+
+/* barra social*/
+.social a{
+  display: inline-block;
+  width: 19%;
+  text-align: center;
+  padding:25px 0;
+  color: black;
+  text-decoration: none;
+  line-height: 0;
+  transition: all 0.5s;
+}
+.social a i{
+  color:#F0A952;
+  font-size: 18px;
+}
+
+.social a:hover{
+  font-size: 20px;
+
+}
+
 /*FOOTER*/
 .rodape{
   width: 100%;
